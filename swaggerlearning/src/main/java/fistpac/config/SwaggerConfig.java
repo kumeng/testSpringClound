@@ -1,5 +1,8 @@
 package fistpac.config;
 
+/**
+ * http://localhost:8080/swagger-ui.html
+ */
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.ComponentScans;

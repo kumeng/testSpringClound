@@ -1,0 +1,13 @@
+server:
+  port: 8996    
+#编写eureka配置 ，配置从哪个中心获取服务
+eureka:
+  client:
+    serviceUrl:
+       defaultZone: http://localhost:8888/eureka/
+#      defaultZone: http://localhost:81/eureka/,http://localhost:82/eureka/
+spring:
+  application:
+    name: service-ribbon
+  zipkin:
+    base-url: http://localhost:9411/
